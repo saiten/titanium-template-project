@@ -8,13 +8,13 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>1.8.2</sdk-version>
-    <id>jp.co.dwango.iphonemanage</id>
-    <name>iphonemanage</name>
+    <id>co.saiten.templateapp</id>
+    <name>template application</name>
     <version>1.0</version>
     <publisher>saiten</publisher>
-    <url>http://www.dwango.co.jp/</url>
-    <description>iphone management system</description>
-    <copyright>2012 by dwango Co,Ltd.</copyright>
+    <url>http://saiten.co/</url>
+    <description>titanium template application</description>
+    <copyright>2012 by saiten</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
