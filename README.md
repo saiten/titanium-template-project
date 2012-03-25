@@ -8,8 +8,6 @@ Titaniumでcoffeescriptを使ってて、かつTitanium Studioを使わない人
 
 	npm install -g underscore async xmlbuilder xml2js 
 
-Cakefile, config.coffee, strings.coffeeをそれぞれTitaniumのプロジェクトディレクトリ直下にコピー。
-
 ### config.coffeeを修正
 
 使用するTitanium SDKバージョンを指定
@@ -66,7 +64,7 @@ AppStore向けにビルドする場合は、Provisioning Profileも指定する�
 
 ## strings.coffee
 
-ローカライズXML作成用。ビルド時に読み込んでi18nディレクトリ内に自動的にstrings.xmlに変換される。
+ローカライズXML作成用。ビルド時に読み込んで、i18nディレクトリに自動的にstrings.xmlを作成する。
 
 ### 書き方
 
