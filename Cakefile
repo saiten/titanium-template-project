@@ -9,7 +9,7 @@ config = require('./config')
 
 titanium_path = (target) ->
   version = config.titanium_version[target]
-  "/Library/Application\ Support/Titanium/mobilesdk/osx/#{version}"
+  "#{process.env.HOME}/Library/Application\ Support/Titanium/mobilesdk/osx/#{version}"
 
 # ANSI Terminal Colors.
 bold   = "\033[0;1m"
